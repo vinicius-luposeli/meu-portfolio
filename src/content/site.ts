@@ -12,7 +12,7 @@ export const site = {
   experienceBadge: "6+ years of experience",
 
   // [CHANGE] Replace with the real LinkedIn profile URL.
-  linkedin: "https://www.linkedin.com/in/CHANGE-ME",
+  linkedin: "https://www.linkedin.com/in/vinicius-luposeli-91b663137/",
 
   // [CHANGE] Replace with the production domain (used for canonical / Open Graph).
   url: "https://CHANGE-ME.example.com",
@@ -66,35 +66,42 @@ export const expertise: readonly ExpertiseArea[] = [
     icon: "shield",
     summary:
       "Perimeter and network security: firewall policy, secure remote access and network access control.",
-    items: ["Palo Alto Networks", "Firewalls", "Network Security", "VPN", "Authentication", "NAC"],
+    items: ["Palo Alto Networks", "Panorama", "Next-Generation Firewalls", "GlobalProtect", "VPN", "NAC" ],
   },
   {
     title: "Infrastructure",
     icon: "server",
     summary:
       "Linux and Windows server environments, virtualization platforms, load balancing and backup.",
-    items: ["Linux", "Windows Server", "VMware", "Proxmox", "Hyper-V", "Servers", "Load Balancers", "Veeam"],
+    items: ["F5 BIG-IP", "Linux", "Windows Server", "VMware", "Proxmox", "Hyper-V", "Load Balancing", "Veeam"],
   },
-  {
+  /**{
     title: "Containers & Platforms",
     icon: "container",
     summary:
       "Containerized workloads and orchestration across Docker and Kubernetes-based platforms.",
-    items: ["Docker", "Docker Swarm", "Kubernetes", "OpenShift"],
-  },
+    items: ["Cisco", "Routing & Switching", "Cisco ISE" "Cisco DNA Center", "Cisco WLC", "VLANs", "Wireless Networking"],
+  },*/
   {
+    title: "Automation & Platforms",
+    icon: "automation",
+    summary:
+      "Infrastructure automation and container platforms for repeatable deployments and operational workflows.",
+    items: ["Ansible", "Docker", "Docker Swarm", "Kubernetes", "OpenShift", "Bash", "Python", "REST APIs"],
+  },
+  /**{
     title: "Automation",
     icon: "automation",
     summary:
       "Repeatable configuration and operational tasks automated with Ansible and scripting.",
     items: ["Ansible", "Bash", "Python"],
-  },
+  },*/
   {
-    title: "Systems & Operations",
+    title: "Monitoring & Operations",
     icon: "operations",
     summary:
-      "Day-to-day administration, monitoring and support of enterprise systems.",
-    items: ["Infrastructure Administration", "Monitoring", "Proactive Monitoring", "Enterprise Systems", "Technical Support"],
+      "Infrastructure monitoring, observability and day-to-day operations of enterprise environments.",
+      items: ["Zabbix", "Elastic Stack", "Infrastructure Monitoring", "SIEM", "Troubleshooting", "Systems Administration"],
   },
 ];
 
